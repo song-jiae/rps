@@ -6,18 +6,18 @@ let randomIndex = 0;
 
 const imglist = [
   {
-    name : "scissors",
-    url : "url(./image/scissors.png)"
+    name: "scissors",
+    url: "url(./image/scissors.png)"
   },
   {
-    name : "rock",
-    url : "url(./image/rock.png)"
+    name: "rock",
+    url: "url(./image/rock.png)"
   },
   {
-    name : "paper",
-    url : "url(./image/paper.png)"
+    name: "paper",
+    url: "url(./image/paper.png)"
   }
-]
+];
 
 const myImg = document.querySelector(".my_item .game_img");
 const yourImg = document.querySelector(".your_item .game_img");
