@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가위바위보 게임</title>
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <section class="game">
+    <div class="main_title">
+      <h1 class="main_text">가위바위보 게임✌🏻</h1>
+    </div>
+    <div class="container">
+      <div class="game_board">
+        <ul class="game_score">
+          <li>
+            <h2>My<span class="point">Point</span></h2>
+              <p class="game_point my_point">0</p>
+          </li>
+          <li>
+            <h2>Your<span class="point">Point</span></h2>
+              <p class="game_point your_point">0</p>
+          </li>
+        </ul>
+        <button class="game_reset">reset</button>
+      </div>
+      <div class="body">
+        <div class="game_item my_item">
+          <div class="game_img"></div>
+          <p class="game_text"></p>
+        </div>
+        <div class="game_item your_item">
+          <div class="game_img"></div>
+          <p class="game_text"></p>
+        </div>
+      </div>
+    </div>
+    <div class="btn-wrap">
+      <button class="game_btn game_scissors" data-choice="가위"><span class="blind"></span></button>
+      <button class="game_btn game_rock" data-choice="바위"><span class="blind"></span></button>
+      <button class="game_btn game_paper" data-choice="보"><span class="blind"></span></button>
+    </div>
+  </section>
+
+  <!-- 모달창 -->
+  <article class="modal">
+    <div class="modal_wrap">
+      <h2 class="modal_title">게임 설명서</h2>
+      <p class="modal_text">설명서를 읽어주세요.</p>
+      <div class="close_btn">
+        <em><span class="blind"></span></em>
+      </div>
+      <div class="modal_container">
+        <ul class="modal_info">
+          <li class="modal_item">
+            이 게임은 가위바위보 게임입니다.
+          </li>
+          <li class="modal_item">
+            1. 가위, 바위, 보자기 중에서 하나를 선택해 컴퓨터와 승부를 가르는 게임입니다.
+          </li>
+          <li class="modal_item">
+            2. 가위는 보를, 보는 바위를, 바위는 가위를 이깁니다..
+          </li>
+          <li class="modal_item">
+            3. 먼저 10승을 달성하면 승리합니다!
+          </li>
+        </ul>
+      </div>
+      <form action="#" class="modal_form" name="check">
+        <input type="checkbox" name="checkbox" id="checkbox" class="modal_check-btn">
+        <label class="modal_check" for="checkbox">하루동안 보지 않기</label>
+        <button class="madal_btn">게임시작</button>
+      </form>
+
+    </div>
+  <script src="/script/custom.js"></script>
+</body>
+</html>
