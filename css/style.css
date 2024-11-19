@@ -1,17 +1,17 @@
 .game_reset {
-  background: #fff url(../image/refresh.png) no-repeat 50% 30% / 36px;
+  background: #fff url(image/refresh.png) no-repeat 50% 30% / 36px;
 }
 
 .game_scissors {
-  background-image: url(../image/scissors.png);
+  background-image: url(image/scissors.png);
   background-position: 70% 50%;
 }
 
 .game_rock {
-  background-image: url(../image/rock.png);
+  background-image: url(image/rock.png);
 }
 
 .game_paper {
-  background-image: url(../image/paper.png);
+  background-image: url(image/paper.png);
   background-position: 70% 50%;
 }
