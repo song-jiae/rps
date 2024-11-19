@@ -7,15 +7,15 @@ let randomIndex = 0;
 const imglist = [
   {
     name: "scissors",
-    url: "url(./image/scissors.png)"
+    url: "url(image/scissors.png)"
   },
   {
     name: "rock",
-    url: "url(./image/rock.png)"
+    url: "url(image/rock.png)"
   },
   {
     name: "paper",
-    url: "url(./image/paper.png)"
+    url: "url(image/paper.png)"
   }
 ];
 
